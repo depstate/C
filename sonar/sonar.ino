@@ -2,7 +2,7 @@ int trigPin = 2;
 int echoPin = 3;
 
 
-#define MASK_LENGTH   (10)
+#define MASK_LENGTH   10
 int raw_array[MASK_LENGTH] = {0,};
 int raw_array_index = 0;
 float x;
